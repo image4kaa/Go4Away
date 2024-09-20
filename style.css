@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Poppins", sans-serif;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+h1{
+    font-family: poppins;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 200px;
+}
+
+mark{
+    color: #0a2463;
+    background-color: #FFDC7F;
+    border-radius: 4px;
+}
+
+body{
+    background-color: #0a2463   ;
+    align-items: center ;
+    font-family: poppins;
+
+}
+
+.card{
+    background-color: #FABC3F;
+    width: 500px;
+    height: 500px;
+    box-shadow: #ef5a6f;
+    text-align: center;
+    font-family: poppins;
+    font-size: 45px;
+    box-shadow: 1px 1px 20px black;
+    transition: 0.1s;
+    border-radius: 10px;
+}
+
+h2{
+    margin-right: 300px;    
+}
+
+.card1{
+    background-color: #E85C0D;
+    width: 500px;
+    height: 500px;
+    box-shadow: #ef5a6f;
+    text-align: center;
+    font-family: poppins;
+    font-size: 45px;
+    box-shadow: 1px 1px 20px black;
+    transition: 0.1s;
+    border-radius: 10px;
+}
+
+.card1:hover{
+    transform: scale(1.05);
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+h4{
+    font-family: arial;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 400px;
+    margin-right: 400px;
+    font-style: italic;
+    font-weight: 400;
+    color: white;
+}
+
+.card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 100px 0 0 0;
+}
+
+.youtube{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    color: white;
+}
+
+.mostrando{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.mulher{
+    width: 40%;
+}
+
+.caixa{
+    width: 50%;
+    height: 600px;
+    background-color: #0a2158   ;
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px rgb(7, 14, 26);
+    transition: (1.05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+.fa-user{
+    color: #FFF5E4  ;
+    font-size: 300px;
+}
+
+.caixa:hover{
+    transform: scale(1.05);
+}
+
+h6{
+    color: #fff;
+    font-size: 45px;
+    text-align: center;
+}
+
+h5{
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer{
+    background-color: #C80036;
+}
+
+li{
+    list-style: none;
+    color: #fff;
+}
+
+#icones{
+    font-size: 40px;
+    color: white;
+}
+
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding: 100px 0;
+}
+
+h3{
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+    padding:100px 0 10px 0 ;
+}
+
+.coluna{
+    font-size: 20px;
+}
